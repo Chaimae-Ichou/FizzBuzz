@@ -20,5 +20,13 @@ public class FizzBuzzTest {
 
         assertEquals("2", resultat);
     }
+    @Test
+    public void testNombre3RetourneFizz() {
+        String resultat = FizzBuzz.de(3);
+
+        System.out.println("Résultat obtenu pour 3 : " + resultat);
+
+        assertEquals("Fizz", resultat);
+    }
 
 }
