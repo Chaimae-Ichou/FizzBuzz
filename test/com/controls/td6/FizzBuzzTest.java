@@ -52,5 +52,22 @@ public class FizzBuzzTest {
 
         assertEquals("Buzz", resultat);
     }
+    @Test
+    public void testNombre10RetourneBuzz() {
+        String resultat = FizzBuzz.de(10);
+
+        System.out.println("Résultat obtenu pour 10 : " + resultat);
+
+        assertEquals("Buzz", resultat);
+    }
+    @Test
+    public void testNombre15RetourneBuzz() {
+        String resultat = FizzBuzz.de(15);
+
+        System.out.println("Résultat obtenu pour 15 : " + resultat);
+
+        assertEquals("FizzBuzz", resultat);
+    }
+
 
 }
