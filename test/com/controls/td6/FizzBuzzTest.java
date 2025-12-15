@@ -28,5 +28,21 @@ public class FizzBuzzTest {
 
         assertEquals("Fizz", resultat);
     }
+    @Test
+    public void testNombre6RetourneFizz() {
+        String resultat = FizzBuzz.de(6);
+
+        System.out.println("Résultat obtenu pour 6 : " + resultat);
+
+        assertEquals("Fizz", resultat);
+    }
+    @Test
+    public void testNombre9RetourneFizz() {
+        String resultat = FizzBuzz.de(9);
+
+        System.out.println("Résultat obtenu pour 9 : " + resultat);
+
+        assertEquals("Fizz", resultat);
+    }
 
 }
